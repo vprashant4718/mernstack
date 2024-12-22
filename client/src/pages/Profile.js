@@ -195,6 +195,8 @@ export default function Profile(next) {
       <div className='flex flex-col justify-center items-center'>
         <img src={formdata.avatar || currentUser.avatar} alt="profile_img" className='rounded-full h-24 w-24 cursor-pointer' 
         onClick={()=>{fileref.current.click()}}/>
+          <span className=''> To Change Image Click on Image..</span>
+          
       </div>
         <p>
           {fileUploadError ? 
