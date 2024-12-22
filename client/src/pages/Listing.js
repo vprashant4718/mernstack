@@ -64,7 +64,7 @@ fetchListing();
        (
         <div>
            <Swiper navigation>
-            {formdata && formdata.imageUrl.map((url) => (
+            {formdata && formdata.map((url) => (
               <SwiperSlide key={url}>
                 <div
                   className='h-[550px]'
